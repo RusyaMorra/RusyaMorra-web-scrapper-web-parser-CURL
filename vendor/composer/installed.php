@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => 'parser/siteparser',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'electrolinux/phpquery' => array(
+            'pretty_version' => '0.9.6',
+            'version' => '0.9.6.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../electrolinux/phpquery',
+            'aliases' => array(),
+            'reference' => '6cb8afcfe8cd4ce45f2f8c27d561383037c27a3a',
+            'dev_requirement' => false,
+        ),
+        'krugozor/database' => array(
+            'pretty_version' => 'V2.0',
+            'version' => '2.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../krugozor/database',
+            'aliases' => array(),
+            'reference' => '836b7ff80604f748910f00d92a35a3ccaab77b0a',
+            'dev_requirement' => false,
+        ),
+        'parser/siteparser' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+    ),
+);

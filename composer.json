@@ -1,0 +1,19 @@
+{
+    "name": "parser/siteparser",
+    "description": "page sckrapper",
+    "autoload": {
+        "psr-4": {
+            "Parser\\Siteparser\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rusya morra",
+            "email": "rusyamorra@gmail.com"
+        }
+    ],
+    "require": {
+        "krugozor/database": "^2.0",
+        "electrolinux/phpquery": "^0.9.6"
+    }
+}
